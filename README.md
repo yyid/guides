@@ -1,6 +1,9 @@
-# The [Module Guide](http://module.guide) <img height="36" src="http://moremicromodules.org/mmm.png" alt="MMM">
+# The <a href="http://moremicromodules.org"><img height="32" src="http://moremicromodules.org/mmm.png" alt="MMM"></a> [Module Guide](http://module.guide)
 
 How to create a module/package/library in any programming language.
+
+* [How to Structure Code and Publish a Module](#how-to-structure-code-and-publish-a-module)
+* [How to Write and Run a Unit Test](#how-to-write-and-run-a-unit-test)
 
 ## How to Structure Code and Publish a Module
 

@@ -1,25 +1,30 @@
 # RUBY + RUBYGEMS
 
-## Requirements
+## Description
 
-* [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-
-You can check if you have a working installation of Ruby with:
+You'll need to have a version of [Ruby installed](https://www.ruby-lang.org/en/documentation/installation/). You can check if you have one on your system with:
 
 ```shell
 $ ruby -v
 ```
 
+The standard package manager for Ruby is [RubyGems](https://rubygems.org).
+
 ## How to Package a Module
 
-Replace `mmm` with your module's name.
+*Replace `mmm` with your module's name.*
 
 ### Recommended File Structure
 
     .
-    ├── package.json
-    └── src
-        └── mmm.js
+    ├── Gemfile
+    ├── lib
+    │   ├── mmm
+    │   │   └── version.rb
+    │   └── mmm.rb
+    ├── mmm.gemspec
+    └── Rakefile
+
 
 You should also add information and documentation to your module, by adding a `README.md`, a `LICENSE.txt`, and a `CHANGELOG.md` file.
 

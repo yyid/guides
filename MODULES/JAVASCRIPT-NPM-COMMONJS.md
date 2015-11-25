@@ -89,6 +89,8 @@ mmm(); // => 'More Micro Modules'
 
 ## How to Publish a Module
 
+[Documentation](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+
 TBD: Register
 
 In the module directory run:

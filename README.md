@@ -9,11 +9,14 @@ How to create a module/package/library in any programming language.
 
 ### JavaScript
 
-The package manager situation can be confusing at the beginning. Most modules are published on [npmjs.com](http://npmjs.com/), but some are served directly from [github.com](https://github.com). To complicate things even further, there are different module systems, which describe how to access the code. Here are three different ways how you can publish your code. If you are doing server-side node.js programming, pick option one (NPM and CommonJS). If you are doing front-end programming, and you are unsure which one to use, option two (JSPM and ES6 moudles) is a good choice. Option three (Bower and browser globals) is simple to use, but disregarded in large parts of the JavaScript community. A very detailed description of current JavaScript package managers and module systems can found in [this blog arcticle by Nolan Lawsons](http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/)!
+The package manager situation can be confusing at the beginning. Most modules are published on [npmjs.com](http://npmjs.com/), but some are served directly from [github.com](https://github.com). To complicate things even further, there are different module systems, which describe how to access the code. Here are three different ways how you can publish your code. If you are doing server-side node.js programming, pick option one (npm plus CommonJS). If you are doing front-end programming, you are encouraged to go with option two (npm plus ES6 modules). Option three (Bower plus browser globals) is simple to use, but disregarded in large parts of the JavaScript community.
 
-* [JAVASCRIPT + NPM + COMMONJS](https://github.com/micromodules/guides/blob/master/MODULES/JAVASCRIPT-NPM-COMMONJS.md) (node.js style)
-* [JAVASCRIPT + JSPM + ES6 MODULES](https://github.com/micromodules/guides/blob/master/MODULES/JAVASCRIPT-JSPM-ES6.md) (future proof style)
+* [JAVASCRIPT + NPM + COMMON.JS](https://github.com/micromodules/guides/blob/master/MODULES/JAVASCRIPT-NPM-COMMONJS.md) (node.js style)
+* [JAVASCRIPT + NPM + ES6 MODULES](https://github.com/micromodules/guides/blob/master/MODULES/JAVASCRIPT-NPM-ES6.md) (future positive style)
 * [JAVASCRIPT + BOWER + BROWSER GLOBALS](https://github.com/micromodules/guides/blob/master/MODULES/JAVASCRIPT-BOWER-GLOBALS.md) (almost no package manager style)
+
+You can also go through the struggle (= less time for actual coding) and [try to support everything at once](https://github.com/nolanlawson/hello-javascript). A very detailed description of current JavaScript package managers and module systems can found in [this blog arcticle by Nolan Lawsons](http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/).
+
 
 ### Ruby
 

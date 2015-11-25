@@ -31,5 +31,5 @@ The usual way to publish Ruby modules is using [rubygems.org](https://rubygems.o
 
 While using [RSpec](http://rspec.info/) is quasi-standard in the Ruby community, [minitest](https://github.com/seattlerb/minitest) is getting more attention lately, and is even [bundled in Ruby's standard library](https://github.com/ruby/ruby/blob/v2_2_3/gems/bundled_gems#L3).
 
-* [RUBY: RSPEC](https://github.com/micromodules/guides/blob/master/TESTS/RUBY-RSPEC.md) (TBD)
-* [RUBY: MINITEST](https://github.com/micromodules/guides/blob/master/TESTS/RUBY-MINITEST.md) (TBD)
+* [RUBY: RSPEC](https://github.com/micromodules/guides/blob/master/TESTS/RUBY-RSPEC.md)
+* [RUBY: MINITEST](https://github.com/micromodules/guides/blob/master/TESTS/RUBY-MINITEST.md)
